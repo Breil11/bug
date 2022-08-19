@@ -1,0 +1,60 @@
+.wrapper{
+  display: flex;
+  position: relative;
+}
+.wrapper .sidebar{
+    float: left;
+  width: 200px;
+  height: 100%;
+  background: #FF7E0D;
+  padding: 30px 0px;
+  position: fixed;
+}
+.wrapper .sidebar .pp{
+
+    width:150px;
+    height:140px;
+    filter:alpha(opacity=80);
+    -moz-opacity: 0.8;
+    opacity:0.8;
+    border-radius :50%;
+    float:left;
+    margin:20px;
+    background-color: #ffffff;
+}
+.wrapper .sidebar .footer{
+    color: white;
+    position: absolute;
+    bottom: 20px;
+}
+.wrapper .sidebar ul li a .fas{
+  width: 25px;
+}
+
+.wrapper .sidebar ul li:hover{
+  background-color: #594f8d;
+}
+    
+.wrapper .sidebar ul li:hover a{
+  color: #fff;
+}
+ 
+.wrapper .sidebar .social_media{
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+}
+.wrapper .sidebar .social_media a{
+  display: block;
+  width: 40px;
+  background: #594f8d;
+  height: 40px;
+  line-height: 45px;
+  text-align: center;
+  margin: 0 5px;
+  color: #ffffff;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}

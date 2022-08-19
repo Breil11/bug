@@ -1,0 +1,29 @@
+.box .box-1{
+    width: 1000px;
+}
+
+.content{
+    width: 70%;
+    background: rgb(255, 255, 255);
+    color: rgb(153, 145, 145);
+    border-bottom: 3px solid #e0e4e8;
+}
+
+.content .content-adresse{
+    display: flex;
+    justify-content: space-between;
+}
+
+.content .content-agent{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header2{
+    width: 70%;
+    padding: 30px;
+    /* margin-left: 100px; */
+    background: rgb(153, 145, 145);
+    color: #fdf9f9;
+    border-bottom: 1px solid #e0e4e8;
+}

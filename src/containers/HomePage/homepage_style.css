@@ -1,0 +1,18 @@
+.box-up{
+    width: 1100px;
+    margin-top: 50px;
+    margin-right: 100px;
+    /* height: 800px; */
+    /* height: 150px; */
+    /* margin: 20px auto; */
+    display: flex;
+    justify-content: space-between;
+}
+.box-down{
+    width: 1100px;
+    /* height: 800px; */
+    /* height: 150px; */
+    margin-top: 100px;
+    display: flex;
+     justify-content: space-between;
+}

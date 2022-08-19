@@ -1,0 +1,22 @@
+.main_content{
+  width: 120%;
+  /* margin-left: 46px;
+  margin-top: 10px; */
+  display: block;
+    justify-content: space-between;
+}
+
+.main_content .header{
+  padding: 10px;
+  margin: 1px;
+  background: #FF7E0D;
+  color: #fdf9f9;
+  border-bottom: 1px solid #e0e4e8;
+}
+
+.main_content .header .header-points{  
+    float: right; 
+    /* position: absolute;
+    right: 40px;
+    top: 30px; */
+}
